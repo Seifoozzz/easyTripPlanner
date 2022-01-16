@@ -10,6 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyTripPlanners">
         <activity
+            android:name=".View.TripDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.AuthenticationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.TripCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.EasyTripPlanners.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
