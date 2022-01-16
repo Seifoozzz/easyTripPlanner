@@ -12,5 +12,6 @@ public class TripCreationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trip_creation);
+        setTitle("TripCreationActivity");
     }
 }
