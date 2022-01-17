@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyTripPlanners">
         <activity
+            android:name=".View.ui.authentication.SplashActivity"
+            android:exported="false" />
+        <activity
             android:name=".View.TripDetailsActivity"
             android:exported="false" />
         <activity
